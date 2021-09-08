@@ -1,5 +1,14 @@
-.App {
-  text-align: center;
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap";
+html, body {
+  height:100%;
+}
+#root {
+  height:100%;
+}
+.App, .App div {
+  height:100%;
 }
 
 .App-logo {
@@ -15,7 +24,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +44,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.article-recipe {
+  background-color: #f7f7f7;
+  height: 100%
 }
